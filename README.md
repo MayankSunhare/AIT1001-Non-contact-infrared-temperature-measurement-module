@@ -54,7 +54,6 @@ Include the AIT1001.h header in your sketch.
 Initialize the sensor object with its I2C address.
 Use readAmbientTemperature() and readObjectTemperature() methods to retrieve temperature readings.
 
-cpp
 
 #include <Wire.h>
 #include <AIT1001.h>
